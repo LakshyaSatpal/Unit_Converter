@@ -1,0 +1,26 @@
+.result {
+  margin-top: 4rem;
+}
+
+.result-text {
+  font-size: 2.2rem;
+  font-weight: 900;
+  color: #1a59e0;
+}
+
+.result-text.invalid {
+  color: red;
+}
+
+.bump {
+  animation: bump 300ms ease-out;
+}
+
+@keyframes bump {
+  50% {
+    transform: translateX(3rem);
+  }
+  100% {
+    transform: translate(0);
+  }
+}
